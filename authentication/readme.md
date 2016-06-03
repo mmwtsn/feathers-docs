@@ -159,7 +159,7 @@ This middleware uses graceful fall-back to check for a token in order from most 
 3. The request body
 4. The query string (not recommended but supported)
 
-So you can send your token using any of those methods. Using the `Authorization` header it should look like this:
+So you can send your token using any of those methods. Using the `authorization` header it should look like this:
 
 ```
 Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IklseWEgRmFkZWV2IiwiYWRtaW4iOnRydWV9.YiG9JdVVm6Pvpqj8jDT5bMxsm0gwoQTOaZOLI-QfSNc
